@@ -1,0 +1,4 @@
+input_format: profdata
+coverage_service: coveralls
+xcodeproj: ./swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJL.xcodeproj
+scheme: swiftProtocolsAndGenericsJL
