@@ -1,0 +1,54 @@
+User defaults from command line:
+    enableCodeCoverage = YES
+
+Build settings from command line:
+    TEST_AFTER_BUILD = YES
+
+=== CLEAN TARGET swiftProtocolsAndGenericsJL OF PROJECT swiftProtocolsAndGenericsJL WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Create product structure
+/bin/mkdir -p /Users/ravelli/Library/Developer/Xcode/DerivedData/swiftProtocolsAndGenericsJL-gsrxfxttgyprjbdtfofozmhygsqh/Build/Products/Debug-iphonesimulator/swiftProtocolsAndGenericsJL.framework/Modules
+/bin/mkdir -p /Users/ravelli/Library/Developer/Xcode/DerivedData/swiftProtocolsAndGenericsJL-gsrxfxttgyprjbdtfofozmhygsqh/Build/Products/Debug-iphonesimulator/swiftProtocolsAndGenericsJL.framework/Headers
+
+Clean.Remove clean /Users/ravelli/Library/Developer/Xcode/DerivedData/swiftProtocolsAndGenericsJL-gsrxfxttgyprjbdtfofozmhygsqh/Build/Products/Debug-iphonesimulator/swiftProtocolsAndGenericsJL.framework
+    builtin-rm -rf /Users/ravelli/Library/Developer/Xcode/DerivedData/swiftProtocolsAndGenericsJL-gsrxfxttgyprjbdtfofozmhygsqh/Build/Products/Debug-iphonesimulator/swiftProtocolsAndGenericsJL.framework
+
+Clean.Remove clean /Users/ravelli/Library/Developer/Xcode/DerivedData/swiftProtocolsAndGenericsJL-gsrxfxttgyprjbdtfofozmhygsqh/Build/Intermediates/swiftProtocolsAndGenericsJL.build/Debug-iphonesimulator/swiftProtocolsAndGenericsJL.build
+    builtin-rm -rf /Users/ravelli/Library/Developer/Xcode/DerivedData/swiftProtocolsAndGenericsJL-gsrxfxttgyprjbdtfofozmhygsqh/Build/Intermediates/swiftProtocolsAndGenericsJL.build/Debug-iphonesimulator/swiftProtocolsAndGenericsJL.build
+
+** CLEAN SUCCEEDED **
+
+=== BUILD TARGET swiftProtocolsAndGenericsJL OF PROJECT swiftProtocolsAndGenericsJL WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET swiftProtocolsAndGenericsJLTests OF PROJECT swiftProtocolsAndGenericsJL WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+** TEST SUCCEEDED **
+
+Test Suite 'All tests' started at 2016-12-12 11:56:09.979
+Test Suite 'swiftProtocolsAndGenericsJLTests.xctest' started at 2016-12-12 11:56:09.979
+Test Suite 'EditDistanceTests' started at 2016-12-12 11:56:09.980
+Test Case '-[swiftProtocolsAndGenericsJLTests.EditDistanceTests testDistance]' started.
+Test Case '-[swiftProtocolsAndGenericsJLTests.EditDistanceTests testDistance]' passed (0.002 seconds).
+Test Case '-[swiftProtocolsAndGenericsJLTests.EditDistanceTests testPerformanceExample]' started.
+/Users/ravelli/swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJLTests/EditDistanceTests.swift:76: Test Case '-[swiftProtocolsAndGenericsJLTests.EditDistanceTests testPerformanceExample]' measured [Time, seconds] average: 0.008, relative standard deviation: 25.791%, values: [0.012104, 0.006714, 0.006243, 0.006285, 0.010429, 0.008476, 0.006494, 0.006405, 0.006715, 0.006286], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[swiftProtocolsAndGenericsJLTests.EditDistanceTests testPerformanceExample]' passed (0.339 seconds).
+Test Suite 'EditDistanceTests' passed at 2016-12-12 11:56:10.322.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.340 (0.342) seconds
+Test Suite 'swiftProtocolsAndGenericsJLTests' started at 2016-12-12 11:56:10.323
+Test Case '-[swiftProtocolsAndGenericsJLTests.swiftProtocolsAndGenericsJLTests testExample]' started.
+Test Case '-[swiftProtocolsAndGenericsJLTests.swiftProtocolsAndGenericsJLTests testExample]' passed (0.000 seconds).
+Test Case '-[swiftProtocolsAndGenericsJLTests.swiftProtocolsAndGenericsJLTests testPerformanceExample]' started.
+/Users/ravelli/swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJLTests/swiftProtocolsAndGenericsJLTests.swift:33: Test Case '-[swiftProtocolsAndGenericsJLTests.swiftProtocolsAndGenericsJLTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 131.809%, values: [0.000004, 0.000001, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[swiftProtocolsAndGenericsJLTests.swiftProtocolsAndGenericsJLTests testPerformanceExample]' passed (0.258 seconds).
+Test Suite 'swiftProtocolsAndGenericsJLTests' passed at 2016-12-12 11:56:10.584.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.259 (0.261) seconds
+Test Suite 'swiftProtocolsAndGenericsJLTests.xctest' passed at 2016-12-12 11:56:10.585.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.599 (0.606) seconds
+Test Suite 'All tests' passed at 2016-12-12 11:56:10.586.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.599 (0.608) seconds

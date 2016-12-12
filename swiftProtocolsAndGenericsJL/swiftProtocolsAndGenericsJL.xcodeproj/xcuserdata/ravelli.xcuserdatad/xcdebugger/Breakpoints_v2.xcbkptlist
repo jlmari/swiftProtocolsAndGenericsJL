@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swiftProtocolsAndGenericsJLTests/swiftProtocolsAndGenericsJLTests.swift"
+            timestampString = "502024345.505119"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftProtocolsAndGenericsJLTests.swiftProtocolsAndGenericsJLTests.__deallocating_deinit"
+                  moduleName = "swiftProtocolsAndGenericsJLTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ravelli/swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJLTests/swiftProtocolsAndGenericsJLTests.swift"
+                  timestampString = "502024389.04263"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftProtocolsAndGenericsJLTests.swiftProtocolsAndGenericsJLTests.init (invocation : Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; swiftProtocolsAndGenericsJLTests.swiftProtocolsAndGenericsJLTests"
+                  moduleName = "swiftProtocolsAndGenericsJLTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ravelli/swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJLTests/swiftProtocolsAndGenericsJLTests.swift"
+                  timestampString = "502024389.04858"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftProtocolsAndGenericsJLTests.swiftProtocolsAndGenericsJLTests.__allocating_init (invocation : Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; swiftProtocolsAndGenericsJLTests.swiftProtocolsAndGenericsJLTests"
+                  moduleName = "swiftProtocolsAndGenericsJLTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ravelli/swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJLTests/swiftProtocolsAndGenericsJLTests.swift"
+                  timestampString = "502024389.052628"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftProtocolsAndGenericsJLTests.swiftProtocolsAndGenericsJLTests.init (selector : ObjectiveC.Selector) -&gt; swiftProtocolsAndGenericsJLTests.swiftProtocolsAndGenericsJLTests"
+                  moduleName = "swiftProtocolsAndGenericsJLTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ravelli/swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJLTests/swiftProtocolsAndGenericsJLTests.swift"
+                  timestampString = "502024389.055983"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftProtocolsAndGenericsJLTests.swiftProtocolsAndGenericsJLTests.__allocating_init (selector : ObjectiveC.Selector) -&gt; swiftProtocolsAndGenericsJLTests.swiftProtocolsAndGenericsJLTests"
+                  moduleName = "swiftProtocolsAndGenericsJLTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ravelli/swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJLTests/swiftProtocolsAndGenericsJLTests.swift"
+                  timestampString = "502024389.059227"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftProtocolsAndGenericsJLTests.swiftProtocolsAndGenericsJLTests.init () -&gt; swiftProtocolsAndGenericsJLTests.swiftProtocolsAndGenericsJLTests"
+                  moduleName = "swiftProtocolsAndGenericsJLTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ravelli/swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJLTests/swiftProtocolsAndGenericsJLTests.swift"
+                  timestampString = "502024389.062376"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftProtocolsAndGenericsJLTests.swiftProtocolsAndGenericsJLTests.__allocating_init () -&gt; swiftProtocolsAndGenericsJLTests.swiftProtocolsAndGenericsJLTests"
+                  moduleName = "swiftProtocolsAndGenericsJLTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ravelli/swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJL/swiftProtocolsAndGenericsJLTests/swiftProtocolsAndGenericsJLTests.swift"
+                  timestampString = "502024389.065525"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -10,6 +10,8 @@
 		E33CC92B1DEC459E002BD566 /* swiftProtocolsAndGenericsJL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33CC9211DEC459E002BD566 /* swiftProtocolsAndGenericsJL.framework */; };
 		E33CC9301DEC459E002BD566 /* swiftProtocolsAndGenericsJLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33CC92F1DEC459E002BD566 /* swiftProtocolsAndGenericsJLTests.swift */; };
 		E33CC9321DEC459E002BD566 /* swiftProtocolsAndGenericsJL.h in Headers */ = {isa = PBXBuildFile; fileRef = E33CC9241DEC459E002BD566 /* swiftProtocolsAndGenericsJL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E33CC93C1DEC4913002BD566 /* EditDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33CC93B1DEC4913002BD566 /* EditDistance.swift */; };
+		E33CC93E1DEC4FD6002BD566 /* EditDistanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33CC93D1DEC4FD6002BD566 /* EditDistanceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		E33CC92A1DEC459E002BD566 /* swiftProtocolsAndGenericsJLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftProtocolsAndGenericsJLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E33CC92F1DEC459E002BD566 /* swiftProtocolsAndGenericsJLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftProtocolsAndGenericsJLTests.swift; sourceTree = "<group>"; };
 		E33CC9311DEC459E002BD566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33CC93B1DEC4913002BD566 /* EditDistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDistance.swift; sourceTree = "<group>"; };
+		E33CC93D1DEC4FD6002BD566 /* EditDistanceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDistanceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 			children = (
 				E33CC9241DEC459E002BD566 /* swiftProtocolsAndGenericsJL.h */,
 				E33CC9251DEC459E002BD566 /* Info.plist */,
+				E33CC93B1DEC4913002BD566 /* EditDistance.swift */,
 			);
 			path = swiftProtocolsAndGenericsJL;
 			sourceTree = "<group>";
@@ -82,6 +87,7 @@
 			children = (
 				E33CC92F1DEC459E002BD566 /* swiftProtocolsAndGenericsJLTests.swift */,
 				E33CC9311DEC459E002BD566 /* Info.plist */,
+				E33CC93D1DEC4FD6002BD566 /* EditDistanceTests.swift */,
 			);
 			path = swiftProtocolsAndGenericsJLTests;
 			sourceTree = "<group>";
@@ -148,6 +154,7 @@
 				TargetAttributes = {
 					E33CC9201DEC459E002BD566 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					E33CC9291DEC459E002BD566 = {
@@ -196,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33CC93C1DEC4913002BD566 /* EditDistance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33CC93E1DEC4FD6002BD566 /* EditDistanceTests.swift in Sources */,
 				E33CC9301DEC459E002BD566 /* swiftProtocolsAndGenericsJLTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +329,7 @@
 		E33CC9361DEC459E002BD566 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -331,6 +341,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.visualengin.swiftProtocolsAndGenericsJL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -338,6 +349,7 @@
 		E33CC9371DEC459E002BD566 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -356,6 +368,7 @@
 		E33CC9391DEC459E002BD566 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = swiftProtocolsAndGenericsJLTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.visualengin.swiftProtocolsAndGenericsJLTests;
@@ -367,6 +380,7 @@
 		E33CC93A1DEC459E002BD566 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = swiftProtocolsAndGenericsJLTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.visualengin.swiftProtocolsAndGenericsJLTests;
